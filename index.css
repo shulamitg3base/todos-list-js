@@ -1,0 +1,63 @@
+body{
+ padding-left: 32%;
+}
+#todos-list input{ 
+    border: none;
+    outline: none;
+}
+h1{
+    color: palevioletred;
+}
+
+#todos-list{
+    margin-top: 10px;
+    margin-bottom: 10px;;
+    width:  36%;
+}
+
+.completed{
+    text-decoration: line-through lightslategrey ;
+    color:lightslategrey;
+}
+/* 
+#completed-all-items{
+    border: none !important;
+    background-color: none;
+} */
+body > button{
+    background-color: white;
+    border-style: none; 
+    min-width: 50px;
+    margin: 1%; 
+    color: grey;
+}
+body > label{
+    color: grey;
+}
+
+.active{
+    border: 1px solid  palevioletred;
+    border-radius: 3px;
+}
+
+.x-btn{
+    background-color: white;
+    border-style: none; 
+    color:red;
+}
+/* .v-btn{
+  
+    color:green !important;
+}
+body input[type="checkbox"] {
+      background-color: hidden;
+     border-style: hidden; 
+     border: hidden;
+     background-color: hidden;
+     color:blue;
+     width: 15px;
+     height:15px;
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none;
+} */
