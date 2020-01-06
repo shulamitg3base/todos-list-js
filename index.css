@@ -1,6 +1,7 @@
 body{
  padding-left: 32%;
 }
+
 #todos-list input{ 
     border: none;
     outline: none;
@@ -17,7 +18,7 @@ h1{
 
 .completed{
     text-decoration: line-through lightslategrey ;
-    color:lightslategrey;
+    color:#157ADF;
 }
 /* 
 #completed-all-items{
@@ -44,6 +45,11 @@ body > label{
     background-color: white;
     border-style: none; 
     color:red;
+}
+
+input{
+    color: #FF00CF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 /* .v-btn{
   
