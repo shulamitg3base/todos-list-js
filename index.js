@@ -4,7 +4,7 @@ class ToDoItem {
         this.status = status;
     }
 
-    render = (showItems) => {
+    render(showItems) {
 
         let newItemMarkup = document.createElement('div');
         newItemMarkup.setAttribute('id', this.content);
